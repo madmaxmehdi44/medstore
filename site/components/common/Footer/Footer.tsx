@@ -17,7 +17,7 @@ interface Props {
 
 const links = [
   {
-    name: 'Home',
+    name: 'خانه',
     url: '/',
   },
 ]
@@ -36,7 +36,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
                 <span className="rounded-full border border-accent-6 mr-2">
                   <Logo />
                 </span>
-                <span>ACME</span>
+                <span>تیفوتی</span>
               </a>
             </Link>
           </div>
@@ -57,8 +57,8 @@ const Footer: FC<Props> = ({ className, pages }) => {
             <div className="flex space-x-6 items-center h-10">
               <a
                 className={s.link}
-                aria-label="Github Repository"
-                href="https://github.com/vercel/commerce"
+                aria-label="Tifooni"
+                href="https://tifooni.xyz/"
               >
                 <Github />
               </a>
@@ -68,20 +68,20 @@ const Footer: FC<Props> = ({ className, pages }) => {
         </div>
         <div className="pt-6 pb-10 flex flex-col md:flex-row justify-between items-center space-y-4 text-accent-6 text-sm">
           <div>
-            <span>&copy; 2020 ACME, Inc. All rights reserved.</span>
+            <span>&copy; 2022 ACME, Inc. All rights reserved.</span>
           </div>
           <div className="flex items-center text-primary text-sm">
             <span className="text-primary">Created by</span>
             <a
               rel="noopener noreferrer"
-              href="https://vercel.com"
-              aria-label="Vercel.com Link"
+              href="https://tifooni.xyz"
+              aria-label="Tifooni"
               target="_blank"
               className="text-primary"
             >
               <Vercel
                 className="inline-block h-6 ml-3 text-primary"
-                alt="Vercel.com Logo"
+                alt="tifooni.xyz Logo"
               />
             </a>
           </div>

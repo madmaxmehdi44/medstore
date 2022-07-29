@@ -1,25 +1,25 @@
 {
-  "title": "ACME Storefront | Powered by Next.js Commerce",
-  "titleTemplate": "%s - ACME Storefront",
-  "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+  "title": "فروشگاه اینترنتی تیفونی",
+  "titleTemplate": "%s - تیفونی",
+  "description": "فروش انواع لوازم جانبی کامپیوتر و موبایل",
   "openGraph": {
-    "title": "ACME Storefront | Powered by Next.js Commerce",
-    "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+    "title": "فروشگاه اینترنتی تیفونی",
+    "description": "فروش انواع لوازم جانبی کامپیوتر و موبایل",
     "type": "website",
-    "url": "https://nextjs.org/commerce",
-    "site_name": "Next.js Commerce",
+    "url": "https://tifooni.xyz",
+    "site_name": "TifoOni Online Store",
     "images": [
       {
         "url": "/card.png",
         "width": "800",
         "height": "600",
-        "alt": "Next.js Commerce"
+        "alt": "TifoOni Online Store"
       }
     ]
   },
   "twitter": {
-    "handle": "@nextjs",
-    "site": "@nextjs",
+    "handle": "@tifooni",
+    "site": "@tifooni",
     "cardType": "summary_large_image"
   }
 }
