@@ -35,12 +35,12 @@ const Searchbar: FC<Props> = ({ className, id = 'search' }) => {
   return (
     <div className={cn(s.root, className)}>
       <label className="hidden" htmlFor={id}>
-        Search
+        پیدا کردن محصول
       </label>
       <input
         id={id}
         className={s.input}
-        placeholder="Search for products..."
+        placeholder="پیدا کردن محصول"
         defaultValue={router.query.q}
         onKeyUp={handleKeyUp}
       />

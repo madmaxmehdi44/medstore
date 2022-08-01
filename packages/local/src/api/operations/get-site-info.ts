@@ -24,13 +24,13 @@ export default function getSiteInfoOperation({}: OperationContext<any>) {
       categories: [
         {
           id: 'new-arrivals',
-          name: 'New Arrivals',
+          name: 'لوازم جانبی',
           slug: 'new-arrivals',
           path: '/new-arrivals',
         },
         {
           id: 'featured',
-          name: 'Featured',
+          name: 'لیست قیمت قطعات',
           slug: 'featured',
           path: '/featured',
         },
